@@ -1,0 +1,188 @@
+/*Mobile first*/
+
+:root {
+  --font: "Young Serif" "Outfit";
+  --font-header: "Outfit";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font);
+  width: 100%;
+}
+
+#food {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#simple {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: var(--font-header)
+}
+
+.simplebox p {
+  padding: 10px;
+}
+
+#time {
+  font-size: 20px;
+  color: #760e3b;
+  font-family: var(--font-header)
+}
+
+.preparation {
+  background: #fff7fc;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%; /* Pienennä leveyttä haluamasi määrän mukaan */
+  margin: 0 auto; /* Keskittää elementin vaakasuunnassa */
+}
+
+.preparation ul {
+  padding: 10px;
+}
+
+.preparation ul li {
+  margin-left: 20px;
+  padding-left: 20px;
+  padding: 5px;
+}
+
+.preparation ul li::marker {
+  color: #884763;
+}
+
+.ingredients .h2,
+.instructions .h2,
+.nutrition .h2 {
+  color: #8f6451;
+  font-size: 24px;
+  font-family: var(--font-header);
+}
+
+.ingredients {
+  padding: 10px;
+  border-bottom: 1px solid rgb(239, 231, 231);
+  margin-left: 30px; 
+  margin-right: 30px; 
+}
+
+.ingredients ul {
+  margin: 15px;
+}
+
+.ingredients ul li {
+  padding: 10px;
+}
+
+.ingredients ul li::marker {
+  color: #8f6451;
+}
+
+.instructions {
+  padding: 10px;
+  border-bottom: 1px solid rgb(239, 231, 231);
+  margin-left: 30px; 
+  margin-right: 30px; 
+}
+
+.instructions ol {
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.instructions ol li {
+  padding: 20px;
+}
+
+.instructions ol li::marker {
+  color: #8f6451;
+}
+
+.nutrition {
+  padding: 10px;
+}
+
+.nutrition p {
+  padding: 20px;
+}
+
+.value {
+  color: #8f6451;
+  margin-right: 40px;
+}
+
+.energy {
+  border-bottom: 1px solid rgb(239, 231, 231);
+  margin-left: 30px; 
+  margin-right: 30px; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.energy1 {
+  margin-left: 30px; 
+  margin-right: 30px; 
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 100%;
+    background: #f3e5d8;
+  }
+
+  .container {
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+  }
+
+  #food {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+  }
+
+  .foodimage {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .article {
+    padding: 40px;
+  }
+
+
+  .energy {
+    border-bottom: 1px solid rgb(239, 231, 231);
+    margin-right: 20%; 
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .energy1 {
+    margin-right: 20%; 
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
