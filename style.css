@@ -46,8 +46,8 @@ body {
   background: #fff7fc;
   padding: 10px;
   border-radius: 10px;
-  width: 80%; /* Pienennä leveyttä haluamasi määrän mukaan */
-  margin: 0 auto; /* Keskittää elementin vaakasuunnassa */
+  width: 80%; 
+  margin: 0 auto; 
 }
 
 .preparation ul {
