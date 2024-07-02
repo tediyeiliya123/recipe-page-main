@@ -10,8 +10,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [https://github.com/nj93777/recipe-page-main]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Solution live-URL: [https://nj93777.github.io/recipe-page-main/]
 
 ### Built with
 - CSS custom properties
